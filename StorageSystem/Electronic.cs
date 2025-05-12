@@ -14,6 +14,6 @@ public class Electronic : IProduct
     }
     public void PrintInfo()
     {
-        Console.WriteLine($"Name: {Name}, Price: {Price}, And has a warranty of {Warranty} months");
+        Console.WriteLine($"Name: {Name}, Price: {Price}kr, And has a warranty of {Warranty} months");
     }
 }

@@ -15,6 +15,6 @@ public class Groceries : IProduct
 
     public void PrintInfo()
     {
-        Console.WriteLine($"Name: {Name}, Price: {Price} and Expiration Date: {ExpirationDate.ToString("dd/MM/yyyy")}.");
+        Console.WriteLine($"Name: {Name}, Price: {Price}kr, and Expiration Date: {ExpirationDate.ToString("dd/MM/yyyy")}.");
     }
 }

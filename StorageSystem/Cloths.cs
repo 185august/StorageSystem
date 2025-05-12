@@ -14,6 +14,6 @@ public class Cloths : IProduct
     }
     public void PrintInfo()
     {
-        Console.WriteLine($"Name: {Name}, Price: {Price} and Size: {Size}");
+        Console.WriteLine($"Name: {Name}, Price: {Price}kr, and Size: {Size}");
     }
 }
