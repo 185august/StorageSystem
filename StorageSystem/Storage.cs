@@ -17,6 +17,6 @@ public class Storage
 
     public void RemoveProduct(string name)
     {
-        _products.Remove(_products.Find(x => x.Name == name));
+        _products.Remove(_products.Find(p => p != null && p.Name == name));
     }
 }
